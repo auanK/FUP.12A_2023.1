@@ -2,7 +2,6 @@
 
 int main() {
     int hor, min, day, mon, year;
-    
     scanf("%d%d%d%d%d", &hor, &min, &day, &mon, &year);
 
     hor %= 12;
