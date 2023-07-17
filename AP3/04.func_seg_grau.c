@@ -5,7 +5,7 @@ int funcseggrau(double a, double b, double c, double *r1, double *r2) {
     double delta = pow(b, 2) - 4 * a * c;
     if (delta < 0) {
         *r1 = 0;
-        *r2 = 0; 
+        *r2 = 0;
         return 0;
     } else if (delta == 0) {
         *r1 = -b / (2 * a);

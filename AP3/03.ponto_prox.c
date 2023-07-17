@@ -22,7 +22,7 @@ point near(point points[], int n, point p) {
     return smaller;
 }
 int main() {
-    int n;s
+    int n;
     scanf("%d", &n);
 
     point points[n];
@@ -34,6 +34,5 @@ int main() {
     scanf("%lf%lf", &p.x, &p.y);
 
     point smaller = near(points, n, p);
-
     printf("%.2lf %.2lf\n", smaller.x, smaller.y);
 }
