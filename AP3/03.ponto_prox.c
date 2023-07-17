@@ -22,11 +22,10 @@ point near(point points[], int n, point p) {
     return smaller;
 }
 int main() {
-    int n;
-
+    int n;s
     scanf("%d", &n);
-    point points[n];
 
+    point points[n];
     for (int i = 0; i < n; i++) {
         scanf("%lf%lf", &points[i].x, &points[i].y);
     }

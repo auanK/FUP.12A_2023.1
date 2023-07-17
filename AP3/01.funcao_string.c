@@ -6,5 +6,5 @@ char *primoco(char *str, char c) {
             return &str[i];
         }
     }
-    return NULL;
+    return 0;
 }
