@@ -28,9 +28,7 @@ int main() {
     scanf("%d", &n);
 
     point points[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%lf%lf", &points[i].x, &points[i].y);
-    }
+    for (int i = 0; i < n; i++) scanf("%lf%lf", &points[i].x, &points[i].y);
 
     point p;
     scanf("%lf%lf", &p.x, &p.y);
