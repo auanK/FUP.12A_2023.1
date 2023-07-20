@@ -11,16 +11,18 @@ double distance(point p1, point p2) {
 }
 
 point near(point points[], int n, point p) {
-    double dist = 999999999999999999;
+    double dist = INFINITY;
     point smaller;
     for (int i = 0; i < n; i++) {
-        if (distance(points[i], p) < dist) {
+        double current_dist = distance(points[i], p);
+        if (current_dist < dist) {
             smaller = points[i];
-            dist = distance(points[i], p);
+            dist = current_dist;
         }
     }
     return smaller;
 }
+
 int main() {
     int n;
     scanf("%d", &n);
