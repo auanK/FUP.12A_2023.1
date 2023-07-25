@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include <math.h>
 #include <stdlib.h>
 
-bool is_palindrome(int num) {
+int is_palindrome(int num) {
     int temp = num;
     int reverse = 0;
     while (temp != 0) {
